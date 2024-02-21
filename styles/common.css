@@ -1,0 +1,140 @@
+
+.header{
+    height: 5rem;
+}
+
+ol {
+    list-style: none;
+
+}
+
+.common{
+    background-color: #eff6fb;
+    background-image: url("./src/img/bg_common.svg"),url("./src/img/bg_common.svg");
+    background-position: -230px -170px,calc(100% + 171px) 55px;
+    background-repeat: no-repeat;
+    background-size: 425px auto,894px auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.common__container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+}
+
+.common__par-container{
+    width: 50%;
+}
+
+.common__trend-container{
+    max-width: 50%;
+    margin-left: 2rem;
+    padding-top: 7rem;
+}
+
+
+.par__title{
+    font-size: 4.6rem;
+    font-weight: 800;
+    line-height: 6rem;
+    margin: 0 0 3rem;
+    padding: 0;
+    word-wrap: break-word;
+    -webkit-text-size-adjust: 100%;
+    white-space: pre-line;
+}
+
+.par__text{
+    white-space: pre-line;
+    font-size: 2.8rem;
+    font-weight:400;
+    line-height: 4rem;
+}
+
+
+
+.trend__item-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    align-items: flex-start;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
+
+.trend__link{
+    margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    background-color: #fff;
+    color: #3e3cfd;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 10px;
+    color: #3e3cfd;
+    display: inline-flex;
+    padding: 1.6rem 1.8rem;
+    text-decoration: none;
+    transition: all .2s ease-out;
+}
+
+.trend__item{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.trend__title-upper{
+    background-image: url("./src/img/fire.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 24px;
+    line-height: 0;
+    margin-right: 0.5rem;
+    width: 24px;
+}
+
+.trend__title{
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+}
+
+.trend__title-container{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 3.6rem;
+}
+
+.trend__list-switch{
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+    list-style: none;
+    margin: 10px 0 0;
+    width: 100%;
+    column-gap: 0.5rem;   
+}
+
+
+.trend__list-btn--active{
+    background-color: #3e3cfd;
+}
+
+
+.list__btn-switch{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+
